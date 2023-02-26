@@ -21,4 +21,13 @@ public class Animal {
         }
         return answer;
     }
+
+     public static void main(String[] args) {
+        Animal animal = new Animal("white", 4, true);
+        animal.getDescription();
+        Dog dog = new Dog();
+        dog.getDescription();
+        Bird bird = new Bird();
+        bird.getDescription();
+    }
 }
